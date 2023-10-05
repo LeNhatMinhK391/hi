@@ -6,7 +6,7 @@ class Model
     public $conn;
     public function __construct()
     {
-        $this->conn = new mysqli("localhost", "root", "", "congvienhotayy")  or die("Ket noi that bai");
+        $this->conn = new mysqli("test", "test", "", "")  or die("Ket noi that bai");
         $this->conn->set_charset("UTF8");
     }
 
